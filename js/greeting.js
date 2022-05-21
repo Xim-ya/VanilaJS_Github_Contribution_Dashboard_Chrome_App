@@ -3,7 +3,7 @@ const nickNameInput = document.querySelector("input");
 const welcomPhrase = document.querySelector("[data-nick-name = phrase]");
 
 const HIDDEN_CLASS = "hidden";
-const NICKNAME_LS_KEY = "userName";
+const NICKNAME_LS_KEY = "nickName";
 
 const onNickNameSubmit = (event) => {
   event.preventDefault();
